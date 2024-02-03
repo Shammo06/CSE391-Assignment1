@@ -75,7 +75,34 @@
             <a href='https://www.facebook.com/mahfuzzurrahman.shammo.9/' class="fa-brands fa-facebook"></a>
         </div>
     </div>
+    <p>Page location: <span id="pageLocation"></span></p>
+    <p>Last modification date: <span id="lastModified"></span></p>
+    
     </footer>
+    <script>
+        
+        function getLastModified() {
+            var lastModDate = new Date(document.lastModified);
+            return lastModDate.toLocaleString();
+        }
+
+      
+        function getPageLocation() {
+            return window.location.href;
+        }
+
+        
+        function updateFooter() {
+            var pageLocation = getPageLocation();
+            var lastModified = getLastModified();
+
+            document.getElementById('pageLocation').textContent = pageLocation;
+            document.getElementById('lastModified').textContent = lastModified;
+        }
+
+        window.onload = updateFooter;
+    </script>
+    
     
 </body>
 </html>
