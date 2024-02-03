@@ -1,0 +1,102 @@
+/* Reset some default styles for better consistency */
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #3f8a5f;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main Section Styles */
+main {
+    margin: 20px;
+}
+
+.banner{
+    display:flex;
+    justify-content: center;
+}
+.banner-content{
+    margin: auto;
+    font-size: large;
+       
+}
+
+
+
+/* Profile Section Styles */
+section div {
+    margin: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Skills Section Styles */
+h3 {
+    color: #333;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #3f8a5f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-icon{
+    font-size: 32px;
+    gap:10px;
+}
+
+
+/* Copyright Styles */
+p {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        margin: 10px;
+    }
+}

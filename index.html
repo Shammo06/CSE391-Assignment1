@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -15,15 +21,15 @@
         </div>
     </header>
     <main>
-        <section>
-            <div>
-                <h3>HI, I'M MD MAHFUZZUR RAHMAN SHAMMO</h2>
-                <h5>MERN Stack Developer</h5>
-                <p>I am a passionate web developer and a diligent person, currently pursuing my BSc in Computer Science and Engineering at BRAC University.</p>
+        <section class="banner">
+            <div class="banner-content">
+                <h3 style="margin-bottom: 8px;">HI, I'M MD MAHFUZZUR RAHMAN SHAMMO</h2>
+                <h5 style="margin-bottom: 14px;">MERN Stack Developer</h5>
+                <p style="margin-bottom: 14px;">I am a passionate web developer and a diligent person <br> currently pursuing my BSc in Computer Science and Engineering <br>at BRAC University.</p>
                 <button>Download Resume</button>
             </div>
             <div>
-                <img src='/assests/profile.jpg' width="600px">
+                <img src='/assests/profile.jpg' width="450px" height="450px">
             </div>
         </section>
         <section>
@@ -47,28 +53,26 @@
         
     </main>
     <footer>
-       <div> 
-        <nav>
+       <div class="footer-content"> 
+        <nav class="footer-head">
         <header class="footer-title">ADDRESS</header> 
         <p>House-31, Road-4, DIT Project <br/>Merul Badda, Dhaka</p>
         </nav> 
-        <nav>
+        <nav class="footer-head">
             <header class="footer-title">LET'S TALK</header> 
             <p>Mobile: +8801735807444</p>
         </nav> 
-        <nav>
+        <nav class="footer-head">
             <header class="footer-title">SENT ME MAIL</header> 
             <p>Email: mrshammo2018@gmail.com</p>
         </nav>
     </div>
     <div> 
         <p>Shammo © 2023 - All right reserved</p>
-        <div class="">
-            <nav>
-                <a href='https://www.linkedin.com/in/md-mahfuzzur-rahman-shammo-241978244/' class=''></a>
-                <a href='https://github.com/Shammo06' class=''></a>               
-                <a href='https://www.facebook.com/mahfuzzurrahman.shammo.9/' class=''></a>
-            </nav>
+        <div class="footer-icon">            
+            <a href='https://www.linkedin.com/in/md-mahfuzzur-rahman-shammo-241978244/' class="fa-brands fa-linkedin"></a>
+            <a href='https://github.com/Shammo06' class="fa-brands fa-github"></a>               
+            <a href='https://www.facebook.com/mahfuzzurrahman.shammo.9/' class="fa-brands fa-facebook"></a>
         </div>
     </div>
     </footer>
