@@ -76,12 +76,13 @@ footer {
 .footer-content{
     display:flex;
     justify-content: space-between;
+    
 }
 
 
 .footer-title {
     font-weight: bold;
-    margin-bottom: 10px;
+    
 }
 .footer-icon{
     font-size: 32px;
@@ -111,11 +112,11 @@ table td {
 }
 
 
-/* Copyright Styles */
-p {
-    margin-top: 10px;
+.skill{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;   
 }
-
 /* Responsive Design */
 @media (max-width: 600px) {
     main {
